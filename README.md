@@ -14,3 +14,7 @@ Pour récupérer les données, il faut créer un folder "Data", puis créer deda
 ## Entraînement
 
 Pour l'entraînement du modèle, le fichier est __train.py__.
+
+## TODO
+
+- Réduire encore la base d'entraînement en échantillonant au fil des epochs.
