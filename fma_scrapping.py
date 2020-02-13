@@ -33,7 +33,7 @@ def fma_scrapping():
         # Le fichier .mp3 est telecharge localement.
         # Des qu'un nouveau fichier est dl, le precdent est supprimme.
         download_mp3_file(url)
-        audio_array = read(";/current_sound.mp3")
+        audio_array = read("./current_sound.mp3")
         audio_array = audio_array[1].mean(axis=1)
         # On ne prend qu'un point sur 10.L
         # La frequence d'echantillonage est divisee par 10.
