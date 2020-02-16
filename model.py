@@ -5,7 +5,8 @@ Implementation de WaveNEt - ENSAI 2020
 Author : BERNARD Renan
 
 Ce fichier .py construit le modele WaveNet.
-Ce code est directement pris d'un github (j'ai plus le nom).
+Ce code est directement pris d'un github :
+https://github.com/usernaamee/keras-wavenet
 """
 
 from keras.layers import (
